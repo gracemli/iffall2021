@@ -1,0 +1,12 @@
+html {
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin: 4rem 2rem;
+}
+
+.full-screen {
+    width: 70%;
+}
+
+
