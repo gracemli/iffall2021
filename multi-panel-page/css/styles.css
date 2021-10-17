@@ -1,0 +1,148 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 35px;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+.content {
+    width: 960px;
+    margin: auto;
+    
+    
+}
+
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1588152850700-c82ecb8ba9b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    text-align: center;
+}
+
+header .content { 
+    padding: 152px 0 185px 0;
+    
+
+
+}
+/* using this bc we only want to target "content" part that's inside the header */
+
+header h1 {
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    
+}
+
+section h1 {
+    font-size: 40px;
+    padding: 40px 0 15px 0; 
+
+}
+
+.section1 {
+    background-color: rgb(216, 189, 138);
+    padding-bottom: 58px;
+}
+
+
+
+
+p {
+    font-size: 18px;
+    margin: 19px 0 -2px 0;
+
+}
+
+.section2 {
+    background-color: rgb(212, 172, 156);
+    padding-bottom: 27px;
+}
+
+.image-right {
+    float: right;
+    margin-right: 0;
+    margin-left: 37px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 18px 0 22px 5px;
+
+    
+}
+
+.grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin: 0px 12px 24px 0;
+}
+
+.grid {
+    padding: 0;
+}
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.using-grid li {
+    display: block;
+    width: 90%;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.image-text {
+    margin: 8px;
+}
+
+
+
+.section3 {
+    background-color: rgb(151, 190, 119);
+    padding-bottom: 103px;
+
+
+} 
+
+.last-section {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: -0.05px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 123px;
+    margin-right: 123px;
+
+}
+
+footer {
+
+    font-size: 18px;
+   
+}
+
+
+.copyright {
+    background-color: rgb(255, 255, 255);
+    padding-top: 21px;
+    padding-bottom: 42px;
+
+}
