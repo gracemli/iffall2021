@@ -1,0 +1,254 @@
+
+html {
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    background-color: rgb(253, 249, 244);
+    border: 6px solid #99B2E1;
+    display: inline;
+    margin: 5rem;
+    
+}
+
+@media (max-width:780px){
+    html {
+        display:inline;
+        border: none;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+body {
+    margin: 9rem 7rem; 
+}
+
+
+
+
+p {
+    font-size: 12pt;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 12pt;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.leftintro {
+    float:left;
+    width: 55%;
+    padding-bottom: 8rem;
+}
+
+@media (max-width:1149px){
+    .leftintro {
+        float:none;
+        width:100%;
+
+    }
+}
+
+.rightintro {
+    float:right;
+    width: 40%;
+}
+
+@media (max-width:1148px){
+    .rightintro {
+        float:none;
+        width:100%;
+        
+
+    }
+}
+
+
+
+.finalproduct {
+    width: 383px; 
+    height: 355px;
+    object-fit: cover;
+    padding-top: 0rem;
+    margin-left: 2rem;
+    
+}
+
+
+
+
+.leftintro h1{
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform:lowercase;
+    color: #709ae7;
+    font-size: 48px;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    clear:both;
+    
+}
+
+
+/* @media (max-width:1034px){
+    .leftintro h1 {
+        font-size: 30px;
+        
+
+    }
+} */
+
+
+@media (max-width:804px){
+    .leftintro h1 {
+        font-size: 30px;
+        
+
+    }
+}
+
+
+
+.description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    clear: both;
+
+}
+
+
+.grid {
+    padding: 0;
+}
+
+.overview {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    
+}
+
+
+
+.overview p {
+    font-size: 10pt;
+
+}
+
+
+
+.instructions img {
+    width: 520px;
+    height: 208px;
+    object-fit:cover;
+    margin-right: 3rem;
+    margin-bottom: 6rem;
+    margin-top: 0;
+    width: 33%;
+    height: 14rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+
+.instructions {
+    height:100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    clear:both;
+    padding: 0;
+    height:20%;
+}
+
+@media (max-width:775px){
+    .instructions {
+        max-width:70%;
+
+    }
+}
+
+
+
+
+
+.instructions h3 {
+    font-size: 50pt;
+    line-height: 10rem;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    width: 5%;
+    float:right;
+    
+}
+
+.instructions h2 {
+    border-top: 6px solid #99B2E1;
+    padding-top: 4rem;
+}
+
+
+.instructions p {
+    float:right;
+    clear:both;
+    margin-left: 2rem;
+    margin-top: 0;
+
+} 
+
+
+
+@media (max-width:1149px){
+    .instructions p {
+        width:100%;
+        font-size: 10pt;
+
+    }
+}
+
+
+
+h4 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.instructions>li{
+    flex-wrap:nowrap;
+    display: flex;
+}
+
+
+.recipenotes {
+    padding-bottom: 5rem;
+    border-top: 6px solid #99B2E1;
+    padding-top: 3rem;
+} 
+
+.recipenotes section {
+    padding-bottom: 1rem;
+}
+
+
+@media (max-width:1073px){
+    .finalproduct {
+        width:100%;
+        margin-left: 0;
+    }
+}
+
