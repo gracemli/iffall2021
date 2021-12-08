@@ -5,16 +5,6 @@ html, body {
 }
 
 
-@media (max-width:513px){
-    html, body {
-        margin: 0;
-        padding: 0;
-        background-color: #ca6c90;
-    }
-    
-    
-    
-}
 
 
 nav{
